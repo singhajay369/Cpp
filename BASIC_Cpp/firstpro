@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 #include<iostream>
 using namespace std;
 int main (){
     cout << "Hello world ";
     return 0;
+=======
+#include<iostream>
+using namespace std;
+int main (){
+    cout << "Hello world ";
+    return 0;
+>>>>>>> fcf51713648aa980d3cc9a05fecc4c5cc3271bb7
     }
