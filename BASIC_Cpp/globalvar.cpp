@@ -1,12 +1,17 @@
 #include<iostream>
 using namespace std;
+
 // GLOBAL VAR
-int x = 21;
+int x=22;
+void myfunction (){
+
+int x = 21; 
+cout <<"This is local  variable:"<<x<<endl;
+cout <<"This is global variable:"<<::x<<endl;
+                    }
 int main (){
 
-    int x = 22;
-    cout <<"THIS IS LOCAL VAR"   <<x << endl;
-    cout <<"THIS IS gloabal VAR" <<::x << endl;
+    myfunction();
     
     return 0;
 }
