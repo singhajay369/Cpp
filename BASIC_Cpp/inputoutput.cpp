@@ -25,8 +25,8 @@ int main (){
     cout<<x<<endl;
     cout<<"Enter a value for your second integer \n";
     cin>>y;
-    cout<<y<<endl;
-    cout<<x+y;
-    cout <<"\nhello";
+    cout<<"The sum of the given number is:"<<x+y;
+    cout <<"\nhello\n";
+    cout<<"here the value of first intger is: "<<x<<" \nthe value of second intger is: "<<y<<endl;
     return 0;
 }
