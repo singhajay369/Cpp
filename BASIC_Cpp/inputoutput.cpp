@@ -27,6 +27,6 @@ int main (){
     cin>>y;
     cout<<y<<endl;
     cout<<x+y;
-    cout <<"hello";
+    cout <<"\nhello";
     return 0;
 }
